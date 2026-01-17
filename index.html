@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Maks K's Portfolio</title>
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="static/images/IMG_0276_Original.jpg">
+                <span>Maks K</span>
+            </div>
+
+            <nav class="menu">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a class="cta-btn" href="mailto:aesquadcoop@gmail.com">Let's Create!</a>
+        </header>
+        
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1><span class="gradient-text">High-retention</span></h1>
+                <h1>video editing</h1>
+                <p>for creators & brands</p>
+                <a href="#contact" class="cta-butn">Contact me!</a>
+            </div>
+
+            <div class="hero-media">
+                <video autoplay loop muted playsinline class="video-loop">
+                    <source src="/static/images/gif.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="clients">
+            <div class="container">
+                <h2>Very <span class="blue-text">grateful</span> to work with them!</h2>
+
+                <div class="marquee">
+                    <div class="marquee-track" id="marquee">
+
+                            <div class="card">
+                                <img src="static/images/channels4_profile.jpg">
+                                <div class="card-text">
+                                    <h3>Віллі Каже</h3>
+                                    <p>806 subscribers</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="static/images/завантаження.jpeg">
+                                    <div class="card-text">
+                                        <h3>Sasha ProTrade</h3>
+                                        <p>4.47K subscribers</p>
+                                    </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="static/images/2025-12-24 19.37.18.jpg">
+                                <div class="card-text">
+                                    <h3>Гетьман</h3>
+                                    <p>1.64K subscribers</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="static/images/images.jpeg">
+                                <div class="card-text">
+                                    <h3>Degenlord</h3>
+                                    <p>3.83K subscribers</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section" id="projects">
+            <h2 class="section-title">Some of my <span>Projects:</span></h2>
+
+            <div class="cascade-container">
+                <div class="main-card yt-card" onclick="openModal('ytModal')">
+                    <div class="category-label"><span>Youtube</span> videos</div>
+                    <img src="static/images/maxresdefault.jpg" class="preview-img">
+                </div>
+
+                <div class="main-card reels-card" onclick="openModal('reelsModal')">
+                    <div class="category-label"><span>Shorts</span> & reels</div>
+                    <img src="static/images/2025-12-24 23.43.31.jpg" class="preview-img">
+                </div>
+            </div>
+
+            <div id="ytModal" class="modal-overlay">
+                <div class="modal-content">
+                    <button class="close-btn" onclick="closeModal('ytModal')">&times;</button>
+                    <div class="videos-grid">
+                        <div class="video-box"><iframe src="https://www.youtube.com/embed/Yu5IBGrPBPo"></iframe></div>
+                        <div class="video-box"><iframe src="https://www.youtube.com/embed/Gos-b7UojZw"></iframe></div>
+                    </div>
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="static/images/завантаження.jpeg">
+                            <h4>Sasha ProTrade</h4>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>Maks transformed our footage into an engaging video that exceeded all expectations!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reelsModal" class="modal-overlay">
+                <div class="modal-content">
+                    <button class="close-btn" onclick="closeModal('reelsModal')">&times;</button>
+                    <div class="reels-grid">
+                        <div class="reel-box"><iframe src="https://www.youtube.com/embed/4gbJJdi8vqM"></iframe></div>
+                        <div class="reel-box"><iframe src="https://www.youtube.com/embed/6qWkJZscwnA"></iframe></div>
+                        <div class="reel-box"><iframe src="https://www.youtube.com/embed/bONpa8tvZig"></iframe></div>
+                    </div>
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="static/images/maks.png">
+                            <h4>Maks L</h4>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>Best vertical content editor we've worked with!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h2>
+                        <span class="gradient-text">Got a project</span> 
+                        <span class="blue-text">in mind?</span>
+                    </h2>
+                    <p class="italic-text">Let’s make it happen — find me here:</p>
+                </div>
+                <div class="contact-media">
+                    <img src="static/images/phone.png">
+                </div>
+            </div>
+
+            <footer class="copyright">
+                <p>© 2025 Maks K. All rights reserved. Any reproduction, distribution, or copying of materials on this website is prohibited without prior written permission.</p>
+            </footer>
+        </section>
+
+        <script src="static/js/main.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+        
+
+    </body>
+</html>
