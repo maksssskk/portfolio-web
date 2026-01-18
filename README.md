@@ -38,6 +38,10 @@ Bash
 cd portfolio-web
 Open the project: Simply open index.html in your browser or use a local server like "Live Server" in VS Code.
 
+## 📸 Preview
+
+![Portfolio Home Page](./home-site.png)
+
 👤 Author
 Maksym Kot
 
