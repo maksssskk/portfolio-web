@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
 👤 Author
 Maksym Kot
 
-GitHub: @maksssskk
+GitHub: [@maksssskk](./https://github.com/maksssskk)
 
 Email: aesquadcoop@gmail.com
 
