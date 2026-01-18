@@ -31,12 +31,12 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/maksssskk/portfolio-web.git](https://github.com/maksssskk/portfolio-web.git)
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-Bash
-
+```bash
 cd portfolio-web
-Open the project: Simply open index.html in your browser or use a local server like "Live Server" in VS Code.
+
+3. Open the project: Simply open index.html in your browser or use a local server like "Live Server" in VS Code.
 
 ## 📸 Preview
 
